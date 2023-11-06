@@ -30,7 +30,10 @@ import { MsSubtractionComponent } from './ms-subtraction/ms-subtraction.componen
 import { SnAdditionComponent } from './sn-addition/sn-addition.component';
 import { KlMortgageCalcComponent } from './kl-mortgage-calc/kl-mortgage-calc.component';
 
-@NgModule({
+import { QuoteOfTheDayComponent } from './quote-of-the-day/quote-of-the-day.component';
+
+
+@NgModule({  
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
@@ -45,16 +48,17 @@ import { KlMortgageCalcComponent } from './kl-mortgage-calc/kl-mortgage-calc.com
     , SnAdditionComponent
     , JvdImagePickerComponent
     , KlMortgageCalcComponent
+    , QuoteOfTheDayComponent
   ],
   imports: [
-    BrowserModule
-    , FormsModule
-    , BrowserAnimationsModule
-    , MatCardModule
-    , MatButtonModule
-    , MatCheckboxModule
-    , MatFormFieldModule
-    , MatInputModule
+    BrowserModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
